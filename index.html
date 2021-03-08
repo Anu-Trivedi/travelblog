@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+  
+ 
+   body{
+     background: #ADDFFF;
+   }
+    header {
+      text-align: center; 
+      background: url('https://i.imgur.com/RUp2mHN.jpg');
+      background-size: cover;
+      color: white;
+      margin: 20px;
+    }
+    p{
+      text-align: justify;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px; 
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0, 0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article{
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media(max-width: 500px){
+      h1{
+        font-size: 36px;
+      }
+      li{
+        display: block;
+        padding: 5px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+   <h1>Travel and Explore</h1>
+    <img src="https://i.imgur.com/HusjuzB.jpg">
+   
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Travel </a></li>
+      <li><a href="#">Posts </a></li>
+      <li><a href="#">Gallery</a></li>
+    </ul>
+  </header>
+  
+  <article>
+    <h2>Travelling Europe by Campervan: Our Tips</h2>
+    <p>A lot of information that we needed about traveling to Europe in a           campervan wasnt really available online because most of the website            focused on living in a van, rather than traveling in one. It will be a          different experience altogether. </p>
+   <button>Like</button>
+   </article>
+  
+  <article>
+    <h2>Explore New York City's Diverse Culinary</h2>
+    <p>If you want to eat a good meal at an affordable price then you should        make your way to Queens or Brooklyn to enjoy delicious international and        local food both. In Queens, you can eat delicious Chinese, Taiwanese, Korean    ,Vietnamese, Malaysian and Egyptian cuisine. In Brooklyn, try out the artisan     food market.
+
+</p>
+   <button>Like</button>
+  </article>
+  
+  <article>
+    <h2>Northern Italy by Train, how to do it & more</h2>
+    <p>Italy not only has a rich culture, fascinating history and the scenic        beauty. It is more than that. It is about experiencing the mediterranean        climate, the joy of sitting on a chair along the street in one of the cafes     while sipping espresso, tasting the simplicity of food thats cooked with       just 3-5 ingredients</p>
+    <button>Like</button>
+  </article>
+  
+  <script>
+      $("button").on("click", function(){
+          alert("Thanks for liking the post.!");
+        });
+  </script>
+</body>
